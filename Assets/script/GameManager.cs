@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 
     public AudioSource Audio,bgs;
     public AudioClip win, loss, welcome, mascotintro,gameintro,winmusic;
-
     public GameObject wincanvas,moscot,panel,winpanel,menubox,stars,player,circle;
     
     public bool gamestarted;

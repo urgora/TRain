@@ -4818,7 +4818,6 @@ GameObject:
   - component: {fileID: 387710408734924224}
   - component: {fileID: 387710408734924227}
   - component: {fileID: 387710408734923838}
-  - component: {fileID: 387710408734923839}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -4877,9 +4876,13 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: 387710408734924224}
   selected: 0
-  camerashake: {fileID: 0}
-  finish: {fileID: 0}
+  cancontroll: 1
   anim: {fileID: 0}
+  finishmovement: 0
+  gm: {fileID: 0}
+  finishposition: {fileID: 0}
+  one: {fileID: 0}
+  two: {fileID: 0}
 --- !u!58 &387710408734923838
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4894,22 +4897,6 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.012036186, y: -0.03}
-  serializedVersion: 2
-  m_Radius: 0.1
---- !u!58 &387710408734923839
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387710408734924226}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.18, y: -0.03}
   serializedVersion: 2
   m_Radius: 0.1
 --- !u!1 &387710409157801335
@@ -5081,3 +5068,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb67fe8f922062e41b8028590efa0fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  train: {fileID: 0}
